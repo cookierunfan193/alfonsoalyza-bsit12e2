@@ -1,0 +1,95 @@
+.skill{
+      color: white; 
+     box-sizing: border-box;
+      margin: auto;
+     padding:2rem;
+     gap:2px;
+      background-color: rgb(4, 37, 49);
+     width: 80%;
+     height: 70%;
+  min-height: 70vh;
+
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+.skill2{
+    background-image: url('banner.jpg');
+  text-align: center;
+   box-sizing: border-box;
+   margin: auto;
+   padding: 20px;
+   margin:0;
+   justify-content: center;
+   gap:2px;
+   background-color: rgb(73, 9, 42);
+     height: 70%;
+  min-height: 70vh;
+  width:100% ;
+}
+.img1 {
+  width: 100%;           
+  max-width: 400px;    
+  height: auto;          
+  border-radius: 10px;   
+  display: block;       
+  margin: 1rem auto;     
+}
+.img2{
+  width: 100%;           
+  max-width: 400px;    
+  height: auto;          
+  border-radius: 10px;   
+  display: block;       
+  margin: 1rem auto;     
+}
+.wrapper{
+   text-align: left;
+  justify-content:left;
+  margin: auto;
+}
+.Option{
+   text-align: left;
+   box-sizing: border-box;
+   margin: auto;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   gap:2px;
+   background-color:rgb(4, 37, 49)c;
+   width: 100%;
+} 
+button {
+  background: linear-gradient(#ba7016, #022edc);
+  color: white;
+  padding: 20px;
+  border: 20px;
+  font-weight: bold;
+  cursor: pointer;
+   width: 20%;
+   text-align: center
+  
+}
+.sidebar {
+    height: 100%;
+    width: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:#a9731b;
+  opacity: 0.9; 
+  overflow-x: hidden;
+  transition: width 0.3s ease;
+  padding-top: 60px;
+}
+
+.sidebar a {
+    padding:30px;
+   text-decoration: none;
+  color: white;
+  display: block;
+
+}

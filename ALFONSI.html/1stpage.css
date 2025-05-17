@@ -1,0 +1,124 @@
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.Option{
+   text-align: center;
+   box-sizing: border-box;
+   margin: auto;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   gap:2px;
+   background-color:#1b2036;
+   width: 100%;
+}   
+
+.column {
+  padding: 2px;
+   margin: 100%;
+   text-align: center;
+
+}
+
+button {
+  background: linear-gradient(#ba7016, #022edc);
+  color: white;
+  padding: 20px;
+  border: 20px;
+  font-weight: bold;
+  cursor: pointer;
+   width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Intro_box {
+  background-color:#042531;
+  color: white;
+  width: 50%;
+  padding: 10px;
+  
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #042531;
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.content > div {
+  flex: 1;
+  min-width: 250px;
+}
+
+.content img {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+.sidebar {
+    height: 100%;
+    width: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:#160396;
+  opacity: 0.9; 
+  overflow-x: hidden;
+  transition: width 0.3s ease;
+  padding-top: 60px;
+}
+
+.sidebar a {
+    padding:30px;
+   text-decoration: none;
+  color: white;
+  display: block;
+
+}
+.linedeco {
+  text-align: center;
+  margin-top: 100%;
+  font-size: 1.2rem;
+  width: 100%;
+  color: white;
+}
+.skill2 {
+  background-image: url('banner.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(73, 9, 42);
+  height: 100vh;
+  width: 100%;
+}
+.text-box {
+  flex: 1;
+  min-width: 250px;
+}
+.image-box img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
